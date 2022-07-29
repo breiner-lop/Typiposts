@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+## Instalación de modulos
+Para poder hacer unos del proyecto en localhost debe primero instalar los modulos con el siguiente comando en la terminal del proyecto.
+comando: npm install
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Ejecutar proyecto en localhost
+Para ejecutar el proyecto debe ingresar el siguiente comando en la terminal luego de haber instalado los modulo del proyecto.
+comando: npm start
 
-## Available Scripts
+## Uso de la aplicacion web
+## Barra superior ( aparece en todas las paginas)
+En el lado izquierdo se encuentra el logo de la aplicación web que al hacer click sobre el nos lleva a la página principal y al lado derecho un boton llamado "CREATE NEW POST" al hacer lick sobre este boton aparecera un modal el cual contiene un formulario para crear el nuevo post, a la ves este contiene un boton llamado "CREATE" al hacer click sobre el, aparece una un modal de notificación informando la operación realizada el cual contiene un boton llamado "OK" que al hacer click sobre el cierra la notificación.
+## página principal
+En la página principal hay una lista con todos los posts los cuales contienen un titulo, descripción y un button ( Visit Post) para ver el post completo.
 
-In the project directory, you can run:
+En el lado derecho de cada post hay dos Botones uno con el icono de editar (lapiz) y otro con un icono de eliminar (caneca de basura):
 
-### `npm start`
+Boton EDITAR: al hacer click aparecera un modal con un formulario para editar la información del post. a la ves este contiene un boton llamado "SAVE" al hacer click sobre el aparece una un modal de notificación informando la operación realizada el cual contiene un boton llamado "OK" que al hacer click sobre el cerrar la notificación.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Boton Eliminar: al hacer click aparecera un modal de confimación el cual contiene dos botones llamados "YES" y "CANCEL": al hacer click sobre el boton "CANCEL" el modal de confirmación desaparecera, al hacer click sobre el boton "YES" aparece una un modal de notificación informando la operación realizada el cual contiene un boton llamado "OK" que al hacer click sobre el cerrar la notificación.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## página del post
+En la página del post seleccionado se muestra el titulo, descripción y los comentarios del post (Páginados en un data table).
 
-### `npm test`
+En el lado derecho del post hay dos Botones uno con el icono de editar (lapiz) y otro con un icono de eliminar (caneca de basura):
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Boton EDITAR: al hacer click aparecera un modal con un formulario para editar la información del post. a la ves este contiene un boton llamado "SAVE" al hacer click sobre el aparece una un modal de notificación informando la operación realizada el cual contiene un boton llamado "OK" que al hacer click sobre el cerrar la notificación.
 
-### `npm run build`
+Boton Eliminar: al hacer click aparecera un modal de confimación el cual contiene dos botones llamados "YES" y "CANCEL": al hacer click sobre el boton "CANCEL" el modal de confirmación desaparecera, al hacer click sobre el boton "YES" aparece una un modal de notificación informando la operación realizada el cual contiene un boton llamado "OK" que al hacer click sobre el cerrar la notificación.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

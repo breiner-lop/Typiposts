@@ -1,10 +1,18 @@
 ## Instalación de modulos
 Para poder hacer unos del proyecto en localhost debe primero instalar los modulos con el siguiente comando en la terminal del proyecto.
+con NPM
 comando: npm install
+
+con YARN
+comando: yarn install
 
 ## Ejecutar proyecto en localhost
 Para ejecutar el proyecto debe ingresar el siguiente comando en la terminal luego de haber instalado los modulo del proyecto.
+con NPM
 comando: npm start
+
+con YARN
+comando: yarn start
 
 ## Uso de la aplicacion web
 ## Barra superior ( aparece en todas las paginas)

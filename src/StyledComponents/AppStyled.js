@@ -1,7 +1,11 @@
 import styled from 'styled-components';
+export const Main= styled.main`
+max-width:1600px ;
+margin-left:auto ;
+margin-right:auto ;
+`
 //postslist
 export const PostsListContainer= styled.div`
- 
  border-radius:5px ;
  backdrop-filter: blur(20px);
  box-shadow:2px 2px 2px ;
@@ -17,8 +21,12 @@ background-position-x: center;
 padding-left:80px ;
 padding-right:80px ;
 min-height:100vh ;`
+
 //navbar
 export const NavBarDivMain= styled.div`
+max-width:1500px ;
+margin-left:auto ;
+margin-right:auto ;
 padding:20px 100px 40px 100px ;
 display:flex ;
 align-items:center ;
